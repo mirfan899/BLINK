@@ -109,6 +109,12 @@ Output:
 
 Note: passing ```--show_url``` argument will show the Wikipedia url of each entity. The id number displayed corresponds to the order of entities in the ```entity.jsonl``` file downloaded from ```./download_models.sh``` (starts from 0). The ```entity.jsonl``` file contains information of one entity per row (includes Wikipedia url, title, text, etc.).
 
+### API 
+Run following command to expose api end point.
+```shell
+python main_api.py --fast --mode api
+```
+
 ### 4. Use BLINK in your codebase
 
 ```console
